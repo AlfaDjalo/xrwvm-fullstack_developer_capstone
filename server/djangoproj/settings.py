@@ -28,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS=['localhost','https://labs.cognitiveclass.ai/v2/tools/cloud-ide?ulid=ulid-c6bd1a344b816e96f1f554bd08a59e159fae6fea']
-CSRF_TRUSTED_ORIGINS=['https://labs.cognitiveclass.ai/v2/tools/cloud-ide?ulid=ulid-c6bd1a344b816e96f1f554bd08a59e159fae6fea']
+ALLOWED_HOSTS=['localhost','https://davidacollie-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS=['https://davidacollie-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
